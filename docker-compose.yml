@@ -1,0 +1,14 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7.23
+    restart: always
+    environment: 
+      - MYSQL_ROOT_PASSWORD=abda
+      - MYSQL_DATABASE=majoo
+      - MYSQL_USER=lecabdlaexaewj
+      - MYSQL_PASSWORD=cd5f23d0bd9d1cfce58b55ebd48aedf7ceeb7949cc869018c065c86fe942d587
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./migration:/docker-entrypoint-initdb.d
