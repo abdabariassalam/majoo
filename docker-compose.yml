@@ -6,8 +6,8 @@ services:
     environment: 
       - MYSQL_ROOT_PASSWORD=abda
       - MYSQL_DATABASE=majoo
-      - MYSQL_USER=lecabdlaexaewj
-      - MYSQL_PASSWORD=cd5f23d0bd9d1cfce58b55ebd48aedf7ceeb7949cc869018c065c86fe942d587
+      - MYSQL_USER=i7nhjwryym62vg0w
+      - MYSQL_PASSWORD=hg9r2mt0vswjuxnj
     ports:
       - "3306:3306"
     volumes:
